@@ -1,0 +1,9 @@
+package com.galter.cobranca.model.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.galter.cobranca.model.Titulo;
+
+public interface Titulos extends JpaRepository<Titulo, Long>{
+
+}
